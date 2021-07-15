@@ -16,7 +16,7 @@ def Fibonacci(Number):
         return (Fibonacci(Number - 2) + Fibonacci(Number - 1))
 
 n = int(input("Enter the value of 'n': "))
-print("Fibonacci Series:", end = ' ')
+print("Fibonacci Series:")
 for n in range(0, n):
-  print(Fibonacci(n), end = ' ')
+  print(Fibonacci(n))
         
